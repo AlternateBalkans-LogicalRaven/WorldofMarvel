@@ -1,0 +1,12 @@
+state={
+	id=770
+	name="STATE_770"
+	history={
+		owner = ATL
+		}
+	provinces={
+		13220 13222
+	}
+	manpower=8000000
+	buildings_max_level_factor=1.000
+}

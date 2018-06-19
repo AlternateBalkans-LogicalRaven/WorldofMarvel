@@ -2,11 +2,11 @@ state={
 	id=764
 	name="STATE_764"
 	history={
-		owner = ATL
+	owner = ATL
 		}
 	provinces={
-		12589 7810
+		12589
 	}
-	manpower=0
+	manpower=8000000
 	buildings_max_level_factor=1.000
 }

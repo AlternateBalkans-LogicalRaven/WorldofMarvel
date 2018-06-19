@@ -89,18 +89,14 @@ bookmarks = {
 			}
 			
 		}
-		FRA = {
+		LTE = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas={
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+#
 			}
 			focuses = {
-				FRA_initiate_government_reform
-				FRA_support_status_quo
-				FRA_revise_versailles
+#
 			}
 		}
 
@@ -136,14 +132,18 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}		
 		}
-		"LTE"={
+		"FRA"={
 			minor = yes
-		    ideology = neutrality
+		    ideology = democratic
 			ideas={
-#
+                FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
 			}	
 			focuses = {
-#
+                FRA_initiate_government_reform
+				FRA_support_status_quo
+				FRA_revise_versailles
 			}		
 		}
 		

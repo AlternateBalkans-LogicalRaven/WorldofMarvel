@@ -41,7 +41,18 @@ create_country_leader = {
 	name = "King Vladimir I"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_LTE_KingVladimir.tga"
-	expire = "1965.1.1"
+	expire = "1936.5.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+#Victor Von Doom
+create_country_leader = {
+	name = "Victor Von Doom"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "victorvondoom.tga"
+	expire = "2000.5.1"
 	ideology = despotism
 	traits = {
 		#
