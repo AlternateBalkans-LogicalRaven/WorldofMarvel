@@ -1,5 +1,5 @@
 ﻿name="A World of Marvel"
-path="mod/wom/"
+path="mod/WorldofMarvel/"
 tags={
 	"Gameplay"
 	"Map"
