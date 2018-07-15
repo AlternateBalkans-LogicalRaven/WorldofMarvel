@@ -91,7 +91,7 @@ bookmarks = {
 		}
 		LTE = {
 			history = FRA_BLITZKRIEG_DESC
-			ideology = democratic
+			ideology = neutrality
 			ideas={
 #
 			}

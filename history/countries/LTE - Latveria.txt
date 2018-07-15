@@ -16,7 +16,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 18
+			popularity = 52
 		}
 		
 		communism = {
@@ -24,7 +24,7 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 78
+			popularity = 48
 		}
 	}
 	
@@ -36,22 +36,11 @@ set_politics = {
 
 set_convoys = 200
 
-#King Vladimir
-create_country_leader = {
-	name = "King Vladimir I"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_LTE_KingVladimir.tga"
-	expire = "1936.5.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
 #Victor Von Doom
 create_country_leader = {
 	name = "Victor Von Doom"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "victorvondoom.tga"
+	picture = "vondoom.tga"
 	expire = "2000.5.1"
 	ideology = despotism
 	traits = {
@@ -59,9 +48,68 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Xhemal Aranitasi"
-	picture = "Portrait_Europe_Generic_land_3.dds"
-	skill = 1
+#King Vladimir
+create_country_leader = {
+	name = "King Vladimir I"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "kingvaldimr.tga"
+	expire = "1938.7.9"
+	ideology = despotism
+	traits = {
+		#
+	}
 }
 
+1939.1.1 = {
+	set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 91
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 9
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1937.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 200
+
+#Victor Von Doom
+create_country_leader = {
+	name = "Victor Von Doom"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "vondoom.tga"
+	expire = "2000.5.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+      }
+   }
+}
+
+create_field_marshal = {
+	name = "Medve Karadick"
+	picture = "Karadick.tga"
+	skill = 6
+}
+
+create_field_marshal = {
+	name = "Szabo Verbragge"
+	picture = "verbragge.tga"
+	skill = 4
+}
